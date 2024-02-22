@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js" async></script>
+	<script src="app.js" defer type="module"></script>
+	<title>CampusAdmin</title>
+</head>
+<body>
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand"><i class='bx bxs-smile icon'></i> CampusAdmin</a>
+		<ul class="side-menu">
+			<li><a href="#" class="active"><i class='bx bxs-dashboard icon' ></i> Principal</a></li>
+			<li class="divider" data-text="Panel">Panel</li>
+			<li>
+				<a href="#"><i class='bx bxs-inbox icon' ></i>  <i class='bx bx-chevron-right icon-right' ></i></a>
+				<ul class="side-dropdown">
+					<li><a href="#">Buscador</a></li>
+					<li><a href="#">Badges</a></li>
+					<li><a href="#">Breadcrumbs</a></li>
+					<li><a href="#">Button</a></li>
+				</ul>
+			
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+<!--[
+  {
+    "_id": "65d5fc2a8d655139061dffee",
+    "index": 0,
+    "guid": "850cb375-5281-4b7f-b769-e8119877e3e9",
+    "isActive": false,
+    "balance": "$2,647.81",
+    "picture": "http://placehold.it/32x32&quot;,
+    "age": 39,
+    "eyeColor": "green",
+    "name": "Monroe Sears",
+    "gender": "male",
+    "company": "UNIWORLD",
+    "email": "monroesears@uniworld.com",
+    "phone": "+1 (800) 578-2346",
+    "address": "734 Times Placez, Coyote, Arkansas, 2908",
+    "about": "Dolore nisi ad tempor ullamco esse. Excepteur consequat labore aliqua eiusmod consequat laboris excepteur aliquip aliqua incididunt. Pariatur enim labore officia eu quis ex aliqua proident laboris labore anim nulla.\r\n",
+    "registered": "2020-04-08T01:20:04 +05:00",
+    "latitude": -3.925674,
+    "longitude": -88.910095,
+    "tags": [
+      "anim",
+      "elit",
+      "laboris",
+      "elit",
+      "voluptate",
+      "adipisicing",
+      "incididunt"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Mcdaniel Vaughn"
+      },
+      {
+        "id": 1,
+        "name": "Bobbie Callahan"
+      },
+      {
+        "id": 2,
+        "name": "Ellen Weeks"
+      }
+    ],
+    "greeting": "Hello, Monroe Sears! You have 10 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "65d5fc2a950f5c2227332bf1",
+    "index": 1,
+    "guid": "9bd5f950-c2f2-4f8c-9084-f4dfc2598864",
+    "isActive": false,
+    "balance": "$2,305.53",
+    "picture": "http://placehold.it/32x32&quot;,
+    "age": 35,
+    "eyeColor": "brown",
+    "name": "Dionne Aguilar",
+    "gender": "female",
+    "company": "TROPOLIS",
+    "email": "dionneaguilar@tropolis.com",
+    "phone": "+1 (956) 401-2654",
+    "address": "839 Canarsie Road, Sena, Washington, 5390",
+    "about": "Excepteur enim fugiat ullamco amet irure irure. Aute Lorem magna aute nisi enim ex elit elit eu quis. Culpa sit cupidatat voluptate aliquip voluptate. Ea officia occaecat anim labore.\r\n",
+    "registered": "2017-12-01T02:48:31 +05:00",
+    "latitude": -10.478908,
+    "longitude": 99.512436,
+    "tags": [
+      "est",
+      "ea",
+      "minim",
+      "exercitation",
+      "eiusmod",
+      "commodo",
+      "ut"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Coleman Johnston"
+      },
+      {
+        "id": 1,
+        "name": "Lacy Osborn"
+      },
+      {
+        "id": 2,
+        "name": "Frieda Mendez"
+      }
+    ],
+    "greeting": "Hello, Dionne Aguilar! You have 8 unread messages.",
+    "favoriteFruit": "strawberry"
+}
+]-->
+
+	<!-- NAVBAR -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu toggle-sidebar' ></i>
+			<form action="#">
+				
+			</form>
+			
+			<span class="divider"></span>
+			<div class="profile">
+				<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+				<ul class="profile-link">
+					<li><a href="#"><i class='bx bxs-user-circle icon' ></i> Profile</a></li>
+					<li><a href="#"><i class='bx bxs-cog' ></i> Settings</a></li>
+					<li><a href="#"><i class='bx bxs-log-out-circle' ></i> Logout</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<h1 class="title">Panel Central</h1>
+			<ul class="breadcrumbs">
+				<li><a href="#">Home</a></li>
+				<li class="divider">/</li>
+				<li><a href="#" class="active">Administrativo</a></li>
+			</ul>
+			<div class="info-data">
+				<div class="card">
+					<div class="head">
+						<div >
+							
+							<h2>Usuario1</h2>
+							<ul class="ul1">
+							<img src="usuario1.png" class="Usuario1">
+							<p>Nombre <br> Monroe Sears</p>
+							
+							<p>id <br> <a href="">65d5fc2a...</a></p>
+						</ul>
+							<a href="#" class="informacion1">Ver informacion</a>	
+						</div>				
+					</div>		
+				</div>
+			</div>
+			<div class="info-data">
+				<div class="card">
+					<div class="head">
+						<div >
+							
+							<h2>Usuario1</h2>
+							<ul class="ul1">
+							<img src="usuario1.png" class="Usuario1">
+							<p>Nombre <br> Monroe Sears</p>
+							
+							<p>id <br> <a href="">65d5fc2a...</a></p>
+						</ul>
+						<a href="#" class="informacion1">Ver informacion</a>	
+					</div>				
+					
+				</div>	
+					
+			</div>
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- NAVBAR -->
+</body>
+</html>
